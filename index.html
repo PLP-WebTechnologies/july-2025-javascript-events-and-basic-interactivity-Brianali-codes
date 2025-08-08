@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Javascript assignment.</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main">
+      <div class="color-changer-section">
+        <p>1.First section for demonstrating how i can use event listeners on buttons to execute a function. .</p>
+
+          <p id="textElement">click the buttons below to change the fonts sizes here</p>
+          <div class="btn-container">
+            <button id="btn1x">1x</button>
+            <button id="btn3x">3x</button>
+            <button id="btn5x">5x</button>
+          </div>
+        </div>
+        <br><br>
+       
+        <div class="color-container">
+          <p>2. Section for demonstrating event listeners using onmouseenter to change animations using js style attributes and then reset animation on mouseleave</p>
+          <div id="Spinner">
+            
+          </div>
+
+          <p>Hover on the box above</p>
+        </div>
+
+        <div>
+         
+          <form action="POST" id="contact-form">
+            <p>3. Section for demonstrating Form validation using javascript</p>
+            
+            <label for="name">Input Your Name</label>
+            <input type="text" placeholder="input your name here" required name="name" id="name">
+            <label for="email">Input Your Email</label>
+            <input type="email" placeholder="input your email here" required name="email" id="email">
+            <button type="submit">Submit Form.</button>
+
+            <p id="error-msg" style="color:red;"></p>
+
+          </form>
+        </div>
+       
+    
+      </div>
+      
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
